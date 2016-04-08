@@ -44,7 +44,7 @@ public class StringTestiranje {
 	}
 
 	private static void duzinaStringa(String recenica) {
-		// TODO Auto-generated method stub
+		System.out.println("Duzina stringa je: " + recenica.length());
 		
 	}
 
