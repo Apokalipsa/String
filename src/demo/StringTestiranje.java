@@ -7,6 +7,7 @@ public class StringTestiranje {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Unesite Recenicu");
 		String recenica = input.nextLine();
+		// Odgovarajuce metode
 		
 		duzinaStringa(recenica);
 		parnePozicije(recenica);
