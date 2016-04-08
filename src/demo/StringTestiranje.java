@@ -39,7 +39,12 @@ public class StringTestiranje {
 	}
 
 	private static void parnePozicije(String recenica) {
-		// TODO Auto-generated method stub
+		for(int i = 0; i < recenica.length(); i++){
+		if(i % 2 == 0){
+			System.out.print(recenica.charAt(i));
+		}
+			
+		}
 		
 	}
 
