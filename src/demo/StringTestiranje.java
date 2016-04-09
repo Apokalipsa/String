@@ -7,14 +7,14 @@ public class StringTestiranje {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Unesite Recenicu");
 		String recenica = input.nextLine();
-		// Odgovarajuce metode
 		
-		duzinaStringa(recenica);
-		parnePozicije(recenica);
-		neparnePozicije(recenica);
-		brojUppera(recenica);
-		brojLowecasa(recenica);
-		karakteri(recenica);
+		// Odgovarajuce metode
+		duzinaStringa(recenica + " \n");
+		parnePozicije(recenica + " \n");
+		neparnePozicije(recenica + " \n");
+		brojUppera(recenica + " \n");
+		brojLowecasa(recenica + " \n");
+		karakteri(recenica + " \n");
 		
 	}
 
