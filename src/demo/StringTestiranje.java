@@ -29,8 +29,11 @@ public class StringTestiranje {
 	}
 
 	private static void brojUppera(String recenica) {
-		// TODO Auto-generated method stub
-		
+		for (char c : recenica.toCharArray()) {
+	        if (Character.isUpperCase(c)) {
+	            System.out.println("Velika slova u stringu su : " + c);
+	        }
+		}
 	}
 
 	private static void neparnePozicije(String recenica) {
